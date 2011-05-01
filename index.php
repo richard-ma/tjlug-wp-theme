@@ -1,3 +1,5 @@
-<?php
+<?php get_header(); ?>
 
-phpinfo();
+
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
