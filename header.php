@@ -29,8 +29,15 @@ if (is_home()) {
 <body>
     <div id="header">
         <div id="masthead">
+            <div id="message">
+                <p>
+                    <span class="leader">Meet us </span>
+                    <span class="follower">every third Sunday of the month !</span>
+                </p>
+            </div>
             <div id="branding" role="banner">
-                <div id="userbar">
+                <div id="branding-wrapper">
+                    <img class="logo" alt="TJLUG Logo" src="<?php bloginfo('template_url'); ?>/images/tjlug_logo.png" />
                 </div>
             </div> <!-- #branding -->
             <div id="access" role="navigation">

@@ -349,19 +349,52 @@ a:hover {
 }
 
 /* This is the custom header image */
+#branding {
+    background: #39A0CB;
+}
+#branding-wrapper {
+    width: 940px;
+    margin: 0 auto;
+}
+#branding .logo {
+    margin: 20px;
+    border: 4px solid #BC6E00;
+}
+/*
 #branding img {
 	border-top: 4px solid #000;
 	border-bottom: 1px solid #000;
 	clear: both;
 	display: block;
 }
+    */
 
+/* Message bar*/
+#message {
+	background: #333;
+    width: 100%;
+}
+#message p {
+    margin: auto;
+	line-height: 38px;
+    text-align: right;
+}
+#message p span.leader {
+    color: #BC6E00;
+    font-size: 20px;
+    font-weight: bold;
+}
+#message p span.follower {
+    color: #FFF;
+    font-size: 16px;
+    margin-right: 20px;
+}
 
 /* =Menu
 -------------------------------------------------------------- */
 
 #access {
-	background: #000;
+	background: #333;
 	display: block;
 	float: left;
 	margin: 0 auto;
@@ -370,7 +403,7 @@ a:hover {
 #access .menu-header,
 div.menu {
 	font-size: 13px;
-	margin-left: 12px;
+	margin: auto;
 	width: 928px;
 }
 #access .menu-header ul,
