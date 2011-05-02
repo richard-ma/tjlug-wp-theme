@@ -37,7 +37,11 @@ if (is_home()) {
             </div>
             <div id="branding" role="banner">
                 <div id="branding-wrapper">
-                    <img class="logo" alt="TJLUG Logo" src="<?php bloginfo('template_url'); ?>/images/tjlug_logo.png" />
+                    <a href="<?php echo home_url('/'); ?>" title="TJLUG Logo"><img class="logo" alt="TJLUG Logo" src="<?php bloginfo('template_url'); ?>/images/tjlug_logo.png" /></a>
+                    <div id="headline">
+                        <p class='name'><?php bloginfo('name'); ?></p>
+                        <p class='desc'><?php bloginfo('description'); ?></p>
+                    </div>
                 </div>
             </div> <!-- #branding -->
             <div id="access" role="navigation">

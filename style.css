@@ -152,15 +152,10 @@ code {
 -------------------------------------------------------------- */
 
 /* The main theme structure */
-#colophon,
 #main,
 #wrapper {
-	margin: 0 auto;
-	width: 940px;
-}
-#wrapper {
-	background: #fff;
-	padding: 0 20px;
+	margin: 0;
+	width: 100%;
 }
 
 /* Structure the footer area */
@@ -192,7 +187,7 @@ code {
 
 /* Main global 'theme' and typographic styles */
 body {
-	background: #f1f1f1;
+	background: #fff;
 }
 body,
 input,
@@ -357,17 +352,22 @@ a:hover {
     margin: 0 auto;
 }
 #branding .logo {
+    float: left;
     margin: 20px;
     border: 4px solid #BC6E00;
 }
-/*
-#branding img {
-	border-top: 4px solid #000;
-	border-bottom: 1px solid #000;
-	clear: both;
-	display: block;
+#headline {
+    padding: 40px 0 70px 0;
+    font-weight: bold;
 }
-    */
+#headline .name {
+    font-size: 30px;
+    color: #333;
+}
+#headline .desc {
+    font-size: 24px;
+    color: #444;
+}
 
 /* Message bar*/
 #message {
@@ -404,7 +404,7 @@ a:hover {
 div.menu {
 	font-size: 13px;
 	margin: auto;
-	width: 928px;
+	width: 940px;
 }
 #access .menu-header ul,
 div.menu ul {
@@ -420,7 +420,7 @@ div.menu li {
 	color: #aaa;
 	display: block;
 	line-height: 38px;
-	padding: 0 10px;
+	padding: 0 8px;
 	text-decoration: none;
 }
 #access ul ul {
@@ -452,7 +452,7 @@ div.menu li {
 #access li:hover > a,
 #access ul ul :hover > a {
 	background: #333;
-	color: #fff;
+	color: #BC6E00;
 }
 #access ul li:hover > ul {
 	display: block;
@@ -461,7 +461,7 @@ div.menu li {
 #access ul li.current-menu-ancestor > a,
 #access ul li.current-menu-item > a,
 #access ul li.current-menu-parent > a {
-	color: #fff;
+	color: #39A0CB;
 }
 * html #access ul li.current_page_item a,
 * html #access ul li.current-menu-ancestor a,
