@@ -589,6 +589,7 @@ div.menu li {
 	font-weight: bold;
 	line-height: 1.3em;
 	margin-bottom: 0;
+    border-bottom: #39A0CB dotted 2px;
 }
 .entry-title a:link,
 .entry-title a:visited {
