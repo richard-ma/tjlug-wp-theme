@@ -676,6 +676,7 @@ div.menu li {
 	font-weight: normal;
 	padding: 0.5em 0.75em;
 	text-decoration: none;
+    border: #ffffff solid 2px;
 }
 .home .sticky .page-link a {
 	background: #d9e8f7;
@@ -683,6 +684,7 @@ div.menu li {
 .page-link a:active,
 .page-link a:hover {
 	color: #ff4b33;
+    border: #ff4b33 solid 2px;
 }
 body.page .edit-link {
 	clear: both;
