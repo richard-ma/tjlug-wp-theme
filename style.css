@@ -823,7 +823,7 @@ body.page .edit-link {
 	margin-bottom: 12px;
 }
 #content .wp-caption {
-	background: #f1f1f1;
+	background: #333;
 	line-height: 18px;
 	margin-bottom: 20px;
 	padding: 4px;
@@ -833,7 +833,7 @@ body.page .edit-link {
 	margin: 5px 5px 0;
 }
 #content .wp-caption p.wp-caption-text {
-	color: #888;
+	color: #AAA;
 	font-size: 12px;
 	margin: 5px;
 }
