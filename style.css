@@ -346,7 +346,7 @@ a:hover {
 
 /* This is the custom header image */
 #branding {
-    background: #39A0CB;
+    background: url(./images/banner-bg.png) repeat-x;
 }
 #branding-wrapper {
     width: 940px;
@@ -355,7 +355,6 @@ a:hover {
 #branding .logo {
     float: left;
     margin: 20px;
-    border: 4px solid #ff4b33;
 }
 #headline {
     padding: 40px 0 70px 0;
@@ -363,11 +362,13 @@ a:hover {
 }
 #headline .name {
     font-size: 30px;
-    color: #333333;
+    color: #ff4b33;
+    text-shadow: #000 2px 2px 0;
 }
 #headline .desc {
     font-size: 24px;
-    color: #444;
+    color: #06c;
+    text-shadow: #000 1px 1px 0;
 }
 
 /* Message bar*/
