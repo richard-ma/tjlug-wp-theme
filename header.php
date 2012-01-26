@@ -32,7 +32,7 @@ if (is_home()) {
             <div id="message">
                 <p>
                     <span class="leader">Meet us </span>
-                    <span class="follower">every third Sunday of the month !</span>
+                    <span class="follower">every Third Sunday of the month !</span>
                 </p>
             </div>
             <div id="branding" role="banner">
